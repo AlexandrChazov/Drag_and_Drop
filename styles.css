@@ -42,6 +42,8 @@ body {
 
 .item:active {
   cursor: grabbing;
+  border: solid 2px #209cff;
+  opacity: 0.5;
 }
 
 .placeholder {
@@ -59,4 +61,13 @@ body {
 
 .done {
   background: linear-gradient(90deg, #84fab0 0%, #8fd3f4 100%);
+}
+
+.hide {
+  display: none;
+}
+
+.dragenter {
+  border: solid 1px #68e0cf;
+  border-radius: 20px;
 }
